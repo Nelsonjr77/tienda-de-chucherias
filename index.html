@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de Chucherías</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Tienda de Chucherías</h1>
+
+  <form id="productForm">
+    <input type="file" id="imageInput" accept="image/*" required />
+    <input type="text" id="descriptionInput" placeholder="Descripción" required />
+    <input type="number" id="priceInput" placeholder="Precio" required />
+    <button type="submit">Agregar Producto</button>
+  </form>
+
+  <div id="productGallery"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
